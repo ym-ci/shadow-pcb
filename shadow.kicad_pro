@@ -465,7 +465,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "shadow.net",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
@@ -562,8 +562,8 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
-    "page_layout_descr_file": "",
+    "net_format_name": "KiCad",
+    "page_layout_descr_file": "empty.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -578,6 +578,10 @@
     [
       "3c2fce68-ba60-4bda-a294-ddd60ff77106",
       "Root"
+    ],
+    [
+      "353b67ec-a1cb-4a2a-a9c5-6f61edaa503f",
+      "battery"
     ]
   ],
   "text_variables": {}
