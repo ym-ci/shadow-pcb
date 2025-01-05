@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RedBot_Line_Sensor")(type "KiCad")(uri "$(KIPRJMOD)/RedBot_Line_Sensor.pretty")(options "")(descr ""))
+)
