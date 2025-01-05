@@ -3584,6 +3584,12 @@
 		(uuid "9e1579d1-9aee-458f-990b-89a84d3dbbc6")
 	)
 	(junction
+		(at 44.45 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4ff761b-2047-4e90-9880-ce42d0deae9c")
+	)
+	(junction
 		(at 160.02 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3741,6 +3747,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 97.79) (xy 36.83 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35246f13-c58a-4ed3-9655-f27c0ec5bb76")
+	)
+	(wire
+		(pts
 			(xy 146.05 54.61) (xy 146.05 55.88)
 		)
 		(stroke
@@ -3798,6 +3814,16 @@
 			(type default)
 		)
 		(uuid "4001f898-f797-4804-8d16-f1b8bb9473bf")
+	)
+	(wire
+		(pts
+			(xy 44.45 104.14) (xy 44.45 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4325b092-89ee-4e97-8e4e-cbe5c326baa2")
 	)
 	(wire
 		(pts
@@ -4121,7 +4147,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 97.79) (xy 44.45 109.22)
+			(xy 44.45 97.79) (xy 44.45 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5898,6 +5924,74 @@
 			(project "shadow"
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/353b67ec-a1cb-4a2a-a9c5-6f61edaa503f"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 40.64 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "847164be-7fcc-4553-b252-e65f03cad08c")
+		(property "Reference" "R8"
+			(at 40.64 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0k"
+			(at 40.64 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 40.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b583e37b-e31e-463c-904d-d770b1b45c18")
+		)
+		(pin "1"
+			(uuid "00f5df5d-7a70-4008-b241-68728632e41b")
+		)
+		(instances
+			(project "shadow"
+				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/353b67ec-a1cb-4a2a-a9c5-6f61edaa503f"
+					(reference "R8")
 					(unit 1)
 				)
 			)
