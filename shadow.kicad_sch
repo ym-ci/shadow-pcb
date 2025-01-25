@@ -1526,18 +1526,6 @@
 			)
 		)
 	)
-	(junction
-		(at 142.24 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5aebf85-cac4-47d7-a97a-528cdd9e91e3")
-	)
-	(junction
-		(at 142.24 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7b5e4c6-50a5-48d1-9733-ec91c3a4f960")
-	)
 	(wire
 		(pts
 			(xy 104.14 121.92) (xy 104.14 130.81)
@@ -1927,16 +1915,6 @@
 			(type default)
 		)
 		(uuid "ecbfe4ca-25dd-4d8a-b7a9-7ecc225911e5")
-	)
-	(wire
-		(pts
-			(xy 142.24 93.98) (xy 142.24 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee0526a2-d317-4ffd-805f-cec00f565ac3")
 	)
 	(wire
 		(pts
@@ -3205,6 +3183,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 66.04 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e0165a7-e00c-49a6-b513-672c87993eca")
+		(property "Reference" "BATT_JST1"
+			(at 66.04 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JST"
+			(at 66.04 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 66.04 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 66.04 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e0b0aa7-531b-4b16-82a0-db0bb2a93d8f")
+		)
+		(pin "2"
+			(uuid "21e19223-8a37-41b4-8dc1-91d3c5dc8288")
+		)
+		(instances
+			(project ""
+				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106"
+					(reference "BATT_JST1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 78.74 53.34 180)
 		(unit 1)
@@ -4044,7 +4090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1dc35cf-95e0-4c39-9d84-702003866056")
-		(property "Reference" "SENSOR_CONN1"
+		(property "Reference" "ARR1"
 			(at 238.76 99.0599 0)
 			(effects
 				(font
@@ -4104,7 +4150,7 @@
 		(instances
 			(project "shadow"
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106"
-					(reference "SENSOR_CONN1")
+					(reference "ARR1")
 					(unit 1)
 				)
 			)
@@ -4796,7 +4842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4d911e1-e41a-45d3-865e-6274ca45b049")
-		(property "Reference" "US_SENSOR_CONN1"
+		(property "Reference" "US1"
 			(at 238.76 113.0299 0)
 			(effects
 				(font
@@ -4856,7 +4902,7 @@
 		(instances
 			(project "shadow"
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106"
-					(reference "US_SENSOR_CONN1")
+					(reference "US1")
 					(unit 1)
 				)
 			)
@@ -5358,6 +5404,26 @@
 				(justify left)
 			)
 			(uuid "3c9671e9-ac06-4a1d-bab7-cb6c3dd96c57")
+		)
+		(pin "BAT+" passive
+			(at 71.12 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f75e698c-2422-4cc0-ba16-3fc3c404b279")
+		)
+		(pin "BAT-" passive
+			(at 71.12 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "19b5b67d-196d-4171-af40-67ecfd08db7b")
 		)
 		(instances
 			(project "shadow"

@@ -1536,6 +1536,18 @@
 		)
 		(uuid "2b7f1be7-62e0-4031-9c7b-b8c483d48ac6")
 	)
+	(hierarchical_label "VIN"
+		(shape passive)
+		(at 125.73 52.07 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36b99e47-a44f-4d9f-81b2-cbea8632a051")
+	)
 	(hierarchical_label "SD0"
 		(shape passive)
 		(at 162.56 81.28 0)
@@ -1571,6 +1583,18 @@
 			(justify left)
 		)
 		(uuid "5c9c3b74-772a-4e32-a9ce-34b1f4f98537")
+	)
+	(hierarchical_label "VIN"
+		(shape passive)
+		(at 119.38 52.07 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7042950d-1335-4bd1-93a6-2f582f8231d5")
 	)
 	(hierarchical_label "SC6"
 		(shape passive)
@@ -1704,6 +1728,18 @@
 		)
 		(uuid "cd8a40e2-cd56-4dba-8775-ab6b26a54cb4")
 	)
+	(hierarchical_label "VIN"
+		(shape passive)
+		(at 109.22 73.66 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd62441f-85ba-4fc1-a852-1803cdba10da")
+	)
 	(hierarchical_label "SC1"
 		(shape passive)
 		(at 162.56 83.82 0)
@@ -1751,76 +1787,6 @@
 			(justify left)
 		)
 		(uuid "f4be63fa-cbe8-4840-9ce6-47b77dc73518")
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 109.22 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ab677f8-d165-4d24-aaea-81fb6b2ca0e6")
-		(property "Reference" "#PWR024"
-			(at 109.22 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 109.22 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 109.22 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d76942fe-b6d5-4910-86ce-7797c27ea456")
-		)
-		(instances
-			(project "shadow"
-				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/3c684fcd-f9b8-4f06-8c65-1f616a3a4c49"
-					(reference "#PWR024")
-					(unit 1)
-				)
-				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/5f8222d1-2a00-4590-a900-2f925c082a60"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:VCC")
@@ -2247,76 +2213,6 @@
 				)
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/5f8222d1-2a00-4590-a900-2f925c082a60"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 119.38 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ec5b973-6179-4a36-a498-4005e2aaf796")
-		(property "Reference" "#PWR079"
-			(at 119.38 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 119.38 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 119.38 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4fb70982-f440-4fbf-898c-0abf1739127e")
-		)
-		(instances
-			(project "shadow"
-				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/3c684fcd-f9b8-4f06-8c65-1f616a3a4c49"
-					(reference "#PWR079")
-					(unit 1)
-				)
-				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/5f8222d1-2a00-4590-a900-2f925c082a60"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -3187,76 +3083,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 125.73 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b576c2d2-f78b-4179-ab7c-d5e45288d2e8")
-		(property "Reference" "#PWR023"
-			(at 125.73 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 125.73 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 125.73 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d138cbe2-9bf1-44ee-b2b9-b4b5a8f5d6ed")
-		)
-		(instances
-			(project "shadow"
-				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/3c684fcd-f9b8-4f06-8c65-1f616a3a4c49"
-					(reference "#PWR023")
-					(unit 1)
-				)
-				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/5f8222d1-2a00-4590-a900-2f925c082a60"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 99.06 92.71 90)
 		(unit 1)
@@ -3623,7 +3449,7 @@
 		(dnp no)
 		(uuid "fffc905d-e3e7-4cfe-a257-40e3c90adc86")
 		(property "Reference" "R33"
-			(at 119.634 61.976 0)
+			(at 128.524 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3632,7 +3458,7 @@
 			)
 		)
 		(property "Value" "0k"
-			(at 119.634 64.516 0)
+			(at 128.524 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
