@@ -5940,7 +5940,7 @@
 			)
 		)
 		(property "Value" "TCA9548APWR"
-			(at 24.155 3.27 0)
+			(at -1.2015 1.513 0)
 			(layer "B.Fab")
 			(uuid "c6a5417a-9572-4b5b-8aa9-544d945949ca")
 			(effects
@@ -7730,7 +7730,7 @@
 		(uuid "6df5edec-3a2c-4eb7-98a9-05138ba1d8c6")
 		(at 95.22 85.71 90)
 		(property "Reference" "U5"
-			(at -1.05 -4.335 90)
+			(at 4.938 -0.224 180)
 			(layer "F.SilkS")
 			(uuid "dad45503-92b1-49a7-848c-9f6311f78226")
 			(effects
@@ -11076,7 +11076,7 @@
 		(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "12V1"
-			(at 0 -1.82 0)
+			(at 0 2.032 0)
 			(layer "F.SilkS")
 			(uuid "bf83d1a0-729b-4862-a7bb-0eb4e2601798")
 			(effects
@@ -15410,7 +15410,7 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R33"
-			(at 0 1.05 90)
+			(at 2.123 -0.127 90)
 			(layer "B.SilkS")
 			(uuid "bb187b5c-29bf-48ec-9d2e-1964359f1be7")
 			(effects
@@ -19073,11 +19073,11 @@
 		(placed yes)
 		(layer "B.Cu")
 		(uuid "72ce6a15-3071-40a7-b87b-dd606c885d00")
-		(at 98.105 106.045 180)
+		(at 98.105 106.426 180)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C14"
-			(at 0.091 -1.016 0)
+			(at 2.347 -0.127 0)
 			(layer "B.SilkS")
 			(uuid "710c087a-16a1-4d2d-891b-cf20c9778650")
 			(effects
