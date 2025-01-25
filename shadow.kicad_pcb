@@ -2333,7 +2333,7 @@
 		(descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x04 2.54mm single row")
 		(property "Reference" "I2C_PINOUT12"
-			(at -2.54 3.81 360)
+			(at -2.54 3.81 0)
 			(layer "F.SilkS")
 			(uuid "cab15ca1-89f3-4eea-bb61-0b899100e50b")
 			(effects
@@ -2549,7 +2549,7 @@
 			(uuid "f740b639-927c-4a64-98a1-b63c92c99f85")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 360)
+			(at 0 3.81 0)
 			(layer "F.Fab")
 			(uuid "ed9ade88-3a4d-462a-9662-0748f278c0c6")
 			(effects
@@ -4028,228 +4028,6 @@
 			(rotate
 				(xyz 0 0 -0)
 			)
-		)
-	)
-	(footprint "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
-		(layer "F.Cu")
-		(uuid "329f6e36-4cdd-4526-83f8-4e1fe0b1f414")
-		(at 104.14 53.34)
-		(descr "Mounting Hole 4.3mm, M4, DIN965")
-		(tags "mounting hole 4.3mm m4 din965")
-		(property "Reference" "REF**"
-			(at 0 -4.75 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fe19c91b-7173-41f0-aa5b-e381bd572879")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_4.3mm_M4_DIN965_Pad"
-			(at 0 4.75 0)
-			(layer "F.Fab")
-			(uuid "d4b43dc1-1a17-4f44-8544-ac7717fbf913")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "89210877-823b-477a-8107-47c30e5750a1")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5b2b7b53-90da-44c1-af47-d7f4aed8b75f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3f6ebc21-c8d9-4c3e-8b26-0d0e1bc1d169")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 3.75 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "c390f7ff-a6eb-481c-ab86-8550f975cad5")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 4 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "39cb2f24-5559-4228-9b6f-5e305dcd13be")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "610ad287-123c-45d2-b875-d264d31cd9e9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 7.5 7.5)
-			(drill 4.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "f6af1474-9fcb-4ab0-a171-1f0240214500")
-		)
-	)
-	(footprint "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
-		(layer "F.Cu")
-		(uuid "3858dec7-d47a-4c37-90c4-e8d9f5888aba")
-		(at 104.14 121.92)
-		(descr "Mounting Hole 4.3mm, M4, DIN965")
-		(tags "mounting hole 4.3mm m4 din965")
-		(property "Reference" "REF**"
-			(at 0 -4.75 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fe19c91b-7173-41f0-aa5b-e381bd572879")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_4.3mm_M4_DIN965_Pad"
-			(at 0 4.75 0)
-			(layer "F.Fab")
-			(uuid "d4b43dc1-1a17-4f44-8544-ac7717fbf913")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "89210877-823b-477a-8107-47c30e5750a1")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5b2b7b53-90da-44c1-af47-d7f4aed8b75f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3f6ebc21-c8d9-4c3e-8b26-0d0e1bc1d169")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 3.75 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "c390f7ff-a6eb-481c-ab86-8550f975cad5")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 4 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "39cb2f24-5559-4228-9b6f-5e305dcd13be")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "610ad287-123c-45d2-b875-d264d31cd9e9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 7.5 7.5)
-			(drill 4.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "f6af1474-9fcb-4ab0-a171-1f0240214500")
 		)
 	)
 	(footprint "Button_Switch_THT:SW_PUSH_6mm"
@@ -5855,6 +5633,123 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+		(layer "F.Cu")
+		(uuid "4553f942-1afe-4dcc-8540-b86101e8b316")
+		(at 104.14 121.92)
+		(descr "Mounting Hole 4.3mm, M4, DIN965")
+		(tags "mounting hole 4.3mm m4 din965")
+		(property "Reference" "H4"
+			(at 0 -4.75 0)
+			(layer "F.SilkS")
+			(uuid "6a3b969e-ae58-4beb-bf0e-ce2ffc61f1a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 4.75 0)
+			(layer "F.Fab")
+			(uuid "960f0560-1c14-4058-819d-b5e0e6cdef14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a646c426-a35c-46e6-9066-d64ebc0f0614")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0415dc43-8cd3-4c1d-9812-026cfaaf7a39")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8ccbf28-5117-4776-ba0d-661e7eafb94b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/cf8fe616-1e61-4d46-bcc8-258aa1208477")
+		(sheetname "Root")
+		(sheetfile "shadow.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "85d50c54-f8f3-4d96-94e8-70f6fe360e72")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "15d3f578-00db-4aad-a08a-f9e70ad94dda")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a8c0d967-a59f-4ebe-8fce-f1ea7309b0ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 7.5 7.5)
+			(drill 4.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "80e9479f-169c-4877-bd51-419b5c2bdcf9")
+		)
+	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "4901280e-21a6-4cf4-9a00-e4dca7c0fd1d")
@@ -6142,6 +6037,123 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+		(layer "F.Cu")
+		(uuid "4ac45f53-a6b0-4cb7-bb59-cbd1a2ef274c")
+		(at 162.56 121.92)
+		(descr "Mounting Hole 4.3mm, M4, DIN965")
+		(tags "mounting hole 4.3mm m4 din965")
+		(property "Reference" "H5"
+			(at 0 -4.75 0)
+			(layer "F.SilkS")
+			(uuid "dee28b0f-8ec3-4d75-8645-4bee98074f13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 4.75 0)
+			(layer "F.Fab")
+			(uuid "85e66b66-fa91-4603-b513-353816b902b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce4810f1-e27c-4cd3-a528-3e8ebddeff9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cb16e51-c85e-42eb-a7df-7d4f94406b31")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e5ce08b-3ccd-4958-88ef-a88ed1f34707")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/6020ee17-2922-458d-b866-a57f28a42a3e")
+		(sheetname "Root")
+		(sheetfile "shadow.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "21ccf470-9cd1-469f-a882-875856024914")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "ca332168-cb0d-43f9-8e91-253de7dac838")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "efeb93bd-b683-4db9-afdb-d5f0fa354ee9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 7.5 7.5)
+			(drill 4.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "124d4d77-0898-45b0-965f-0ab27fe6db11")
 		)
 	)
 	(footprint "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
@@ -7947,117 +7959,6 @@
 			(uuid "7d887450-e9f1-4f2b-b1c2-0178c9f6324a")
 		)
 	)
-	(footprint "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
-		(layer "F.Cu")
-		(uuid "5f52ba24-7df6-438b-977d-75c664347036")
-		(at 162.56 121.92)
-		(descr "Mounting Hole 4.3mm, M4, DIN965")
-		(tags "mounting hole 4.3mm m4 din965")
-		(property "Reference" "REF**"
-			(at 0 -4.75 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fe19c91b-7173-41f0-aa5b-e381bd572879")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_4.3mm_M4_DIN965_Pad"
-			(at 0 4.75 0)
-			(layer "F.Fab")
-			(uuid "d4b43dc1-1a17-4f44-8544-ac7717fbf913")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "89210877-823b-477a-8107-47c30e5750a1")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5b2b7b53-90da-44c1-af47-d7f4aed8b75f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3f6ebc21-c8d9-4c3e-8b26-0d0e1bc1d169")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 3.75 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "c390f7ff-a6eb-481c-ab86-8550f975cad5")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 4 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "39cb2f24-5559-4228-9b6f-5e305dcd13be")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "610ad287-123c-45d2-b875-d264d31cd9e9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 7.5 7.5)
-			(drill 4.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "f6af1474-9fcb-4ab0-a171-1f0240214500")
-		)
-	)
 	(footprint "TPS259621:IC_TPS259621DDAT"
 		(layer "F.Cu")
 		(uuid "6df5edec-3a2c-4eb7-98a9-05138ba1d8c6")
@@ -9341,6 +9242,123 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+		(layer "F.Cu")
+		(uuid "77b664b7-5c54-448a-b322-d5bedc4b6e06")
+		(at 104.14 53.34)
+		(descr "Mounting Hole 4.3mm, M4, DIN965")
+		(tags "mounting hole 4.3mm m4 din965")
+		(property "Reference" "H1"
+			(at 0 -4.75 0)
+			(layer "F.SilkS")
+			(uuid "855e63e8-dd56-4fc4-9831-0e4aee027a9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 4.75 0)
+			(layer "F.Fab")
+			(uuid "003054a2-b22e-4ae7-89a1-725af4face93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76d1c913-ef61-478b-8cfc-672563b0456d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bfd5407f-f94d-40c3-b3f1-e02db23a12da")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae08099e-21e9-4bd2-a851-19efc3614b1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/9cbebcd0-4ff3-4843-9cae-8634a63363fa")
+		(sheetname "Root")
+		(sheetfile "shadow.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "e457e6ea-f19a-40f3-8979-6f030598be8b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "c6dc8efa-93a4-4785-ad76-d0dca38bd7ed")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4607d1e0-b04f-42a0-858e-f1be9ab0517f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 7.5 7.5)
+			(drill 4.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "3ea2b879-0d97-444e-9c3d-7c61e7127068")
+		)
+	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "82eee18c-dbfb-4aef-b424-f505fb2608ad")
@@ -9637,7 +9655,7 @@
 		(descr "1x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x4.72mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)")
 		(tags "DIP Switch SPST Slide 7.62mm 300mil")
 		(property "Reference" "SW3"
-			(at 3.81 3.81 360)
+			(at 3.81 3.81 0)
 			(layer "F.SilkS")
 			(uuid "45268c77-626a-42c3-b04e-7d4fd66a6dcd")
 			(effects
@@ -9648,7 +9666,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 3.81 4.69 360)
+			(at 3.81 4.69 0)
 			(layer "F.Fab")
 			(uuid "5b31a1b2-7e83-4636-9e16-8ac14ed86dbb")
 			(effects
@@ -10172,7 +10190,7 @@
 			(uuid "2326ea1c-5082-41dc-ad4d-c106c6794681")
 		)
 		(fp_text user "on"
-			(at 5.365 -1.4975 360)
+			(at 5.365 -1.4975 0)
 			(layer "F.Fab")
 			(uuid "84b0ae1a-ce7c-4e0c-bbea-f4c53415b61d")
 			(effects
@@ -10234,7 +10252,7 @@
 		(descr "USB 2.0 Type C Receptacle, https://gct.co/Files/Drawings/USB4085.pdf")
 		(tags "USB Type-C Receptacle Through-hole Right angle")
 		(property "Reference" "J1"
-			(at 2.975 -1.8 360)
+			(at 2.975 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "7a54512a-8433-4d83-ba92-2f110f043a9d")
 			(effects
@@ -10245,7 +10263,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle"
-			(at 2.975 9.925 360)
+			(at 2.975 9.925 0)
 			(layer "F.Fab")
 			(uuid "e209fd07-8cb6-4766-b34b-32f013b0449a")
 			(effects
@@ -10461,7 +10479,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.975 4.025 360)
+			(at 2.975 4.025 0)
 			(layer "F.Fab")
 			(uuid "aa6ed186-67b5-4abb-91f3-7e4f3b59d5f8")
 			(effects
@@ -10701,117 +10719,6 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)
-	)
-	(footprint "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
-		(layer "F.Cu")
-		(uuid "9b21d986-424f-41c8-9f9f-f1a7e0860617")
-		(at 133.604 86.868)
-		(descr "Mounting Hole 4.3mm, M4, DIN965")
-		(tags "mounting hole 4.3mm m4 din965")
-		(property "Reference" "REF**"
-			(at 0 -4.75 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fe19c91b-7173-41f0-aa5b-e381bd572879")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_4.3mm_M4_DIN965_Pad"
-			(at 0 4.75 0)
-			(layer "F.Fab")
-			(uuid "d4b43dc1-1a17-4f44-8544-ac7717fbf913")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "89210877-823b-477a-8107-47c30e5750a1")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5b2b7b53-90da-44c1-af47-d7f4aed8b75f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3f6ebc21-c8d9-4c3e-8b26-0d0e1bc1d169")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 3.75 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "c390f7ff-a6eb-481c-ab86-8550f975cad5")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 4 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "39cb2f24-5559-4228-9b6f-5e305dcd13be")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "610ad287-123c-45d2-b875-d264d31cd9e9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 7.5 7.5)
-			(drill 4.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "f6af1474-9fcb-4ab0-a171-1f0240214500")
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical"
@@ -11511,6 +11418,123 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+		(layer "F.Cu")
+		(uuid "b0fab76b-3202-4ec2-ac07-cf583ca17bd2")
+		(at 134.62 88.9)
+		(descr "Mounting Hole 4.3mm, M4, DIN965")
+		(tags "mounting hole 4.3mm m4 din965")
+		(property "Reference" "H3"
+			(at 0 -4.75 0)
+			(layer "F.SilkS")
+			(uuid "210bb300-0268-49ec-bb58-67f99f3126e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 4.75 0)
+			(layer "F.Fab")
+			(uuid "3084e9e6-34dc-4f04-b3ad-bdb41a86f3b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "135d8a52-a884-46d3-a3f7-13e56c00ca89")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ade3d8d-26ec-414c-8e60-097827992c3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0b9e41b-4cd6-48b3-8a86-f463dbf41c2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/c1b0952c-93ea-4c80-85c0-a218bad4825c")
+		(sheetname "Root")
+		(sheetfile "shadow.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "e6f883ee-d705-4254-9fd0-dac81d9ddcd6")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "b398c291-e139-4990-8a8e-7d7be8e8f379")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "cd7109af-c38d-40ed-a46c-cab186269d43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 7.5 7.5)
+			(drill 4.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "6b94c1ff-e8fc-423f-8001-170677ba99d9")
 		)
 	)
 	(footprint "LED_SMD:LED_1206_3216Metric"
@@ -12446,6 +12470,123 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+		(layer "F.Cu")
+		(uuid "b7c67ea0-4392-4b35-aa3d-93a8832c8c03")
+		(at 162.56 53.34)
+		(descr "Mounting Hole 4.3mm, M4, DIN965")
+		(tags "mounting hole 4.3mm m4 din965")
+		(property "Reference" "H2"
+			(at 0 -4.75 0)
+			(layer "F.SilkS")
+			(uuid "24e85c0c-2c77-4c23-97e5-c7cf9c1e03d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 4.75 0)
+			(layer "F.Fab")
+			(uuid "e638a993-a9eb-44bf-8ffd-19ffc2a35c5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7d88405-cf3f-4c1d-8da1-5e1713912a73")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41603fc7-695f-477d-9c40-2a11c5d4c0ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5bc8bd8a-b9b9-4fb1-b6c8-6342a1ce8d00")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/df8379e6-905a-4093-9598-a54574ba085f")
+		(sheetname "Root")
+		(sheetfile "shadow.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "3eb1a27c-f9f6-48f1-9e7a-93711b033c8c")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "bca580f4-dccb-4fbc-b0e3-8a4996f31e82")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "fec53a8f-b8b2-4625-a772-6506b11dd663")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 7.5 7.5)
+			(drill 4.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "b8003d6b-07b0-4782-951d-af4a9f612f0e")
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
@@ -13839,117 +13980,6 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)
-	)
-	(footprint "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
-		(layer "F.Cu")
-		(uuid "eccb25d4-6bc0-4a22-b261-8640f2330354")
-		(at 162.56 53.34)
-		(descr "Mounting Hole 4.3mm, M4, DIN965")
-		(tags "mounting hole 4.3mm m4 din965")
-		(property "Reference" "REF**"
-			(at 0 -4.75 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fe19c91b-7173-41f0-aa5b-e381bd572879")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_4.3mm_M4_DIN965_Pad"
-			(at 0 4.75 0)
-			(layer "F.Fab")
-			(uuid "d4b43dc1-1a17-4f44-8544-ac7717fbf913")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "89210877-823b-477a-8107-47c30e5750a1")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5b2b7b53-90da-44c1-af47-d7f4aed8b75f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3f6ebc21-c8d9-4c3e-8b26-0d0e1bc1d169")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 3.75 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "c390f7ff-a6eb-481c-ab86-8550f975cad5")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 4 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "39cb2f24-5559-4228-9b6f-5e305dcd13be")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "610ad287-123c-45d2-b875-d264d31cd9e9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 7.5 7.5)
-			(drill 4.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "f6af1474-9fcb-4ab0-a171-1f0240214500")
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
