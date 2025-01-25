@@ -534,7 +534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 160.02 85.09 0)
 			(effects
 				(font
@@ -600,7 +600,7 @@
 					(unit 1)
 				)
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/6d11c068-6d98-437f-8725-9d48a876a04d"
-					(reference "I2C_PINOUT13")
+					(reference "I2C_PINOUT0")
 					(unit 1)
 				)
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/80e3d8a1-7962-4df6-b6f8-c25855f05fe1"
