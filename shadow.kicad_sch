@@ -5534,7 +5534,7 @@
 				(justify left top)
 			)
 		)
-		(pin "GND" passive
+		(pin "OUT" input
 			(at 86.36 44.45 270)
 			(effects
 				(font
@@ -5542,9 +5542,9 @@
 				)
 				(justify left)
 			)
-			(uuid "99780e1a-0d47-4274-8dac-2e1eede6bde2")
+			(uuid "79fb9d25-b03c-4d4e-9601-f0472e8bb48d")
 		)
-		(pin "5V" passive
+		(pin "OUT_GND" input
 			(at 78.74 44.45 270)
 			(effects
 				(font
@@ -5552,7 +5552,7 @@
 				)
 				(justify left)
 			)
-			(uuid "a70f71d6-3967-4b17-80a3-8382e6bfd51b")
+			(uuid "3c9671e9-ac06-4a1d-bab7-cb6c3dd96c57")
 		)
 		(instances
 			(project "shadow"
