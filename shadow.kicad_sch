@@ -2902,7 +2902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0950c4fb-1b1f-4e33-916b-ba807d95264f")
-		(property "Reference" "MOTOR_CONN"
+		(property "Reference" "MOTOR_CONN1"
 			(at 81.28 101.6001 0)
 			(effects
 				(font
@@ -2920,7 +2920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x02_P1.00mm_Vertical"
 			(at 83.82 101.6 0)
 			(effects
 				(font
@@ -2956,7 +2956,7 @@
 		(instances
 			(project ""
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106"
-					(reference "MOTOR_CONN")
+					(reference "MOTOR_CONN1")
 					(unit 1)
 				)
 			)
@@ -3254,7 +3254,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
 			(at 97.79 93.98 0)
 			(effects
 				(font
@@ -3507,7 +3507,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61de40eb-d6d4-4bcd-8487-bd913170838a")
-		(property "Reference" "GPIO_R"
+		(property "Reference" "GPIO_R1"
 			(at 39.624 127.254 0)
 			(effects
 				(font
@@ -3523,7 +3523,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x15_P1.00mm_Vertical"
 			(at 39.37 102.87 0)
 			(effects
 				(font
@@ -3598,7 +3598,7 @@
 		(instances
 			(project "shadow"
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106"
-					(reference "GPIO_R")
+					(reference "GPIO_R1")
 					(unit 1)
 				)
 			)
@@ -3679,7 +3679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "757194b7-6e13-4790-a4bd-2bb99fca3420")
-		(property "Reference" "RST_SW"
+		(property "Reference" "RST_SW1"
 			(at 155.956 108.966 0)
 			(effects
 				(font
@@ -3731,7 +3731,7 @@
 		(instances
 			(project "shadow"
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106"
-					(reference "RST_SW")
+					(reference "RST_SW1")
 					(unit 1)
 				)
 			)
@@ -3747,7 +3747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "802dea68-594b-417d-97d4-1c5ece3584ba")
-		(property "Reference" "GPIO_L"
+		(property "Reference" "GPIO_L1"
 			(at 26.67 127 0)
 			(effects
 				(font
@@ -3763,7 +3763,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x15_P1.00mm_Vertical"
 			(at 26.67 102.87 0)
 			(effects
 				(font
@@ -3838,7 +3838,7 @@
 		(instances
 			(project "shadow"
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106"
-					(reference "GPIO_L")
+					(reference "GPIO_L1")
 					(unit 1)
 				)
 			)
@@ -3854,7 +3854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "949e06ec-a7d6-4b5f-8862-ba129b472615")
-		(property "Reference" "PICO_R"
+		(property "Reference" "PICO_R1"
 			(at 128.27 85.09 0)
 			(effects
 				(font
@@ -3870,7 +3870,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x15_P1.00mm_Vertical"
 			(at 128.27 109.22 0)
 			(effects
 				(font
@@ -3945,7 +3945,7 @@
 		(instances
 			(project "shadow"
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106"
-					(reference "PICO_R")
+					(reference "PICO_R1")
 					(unit 1)
 				)
 			)
@@ -3960,7 +3960,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e1b9d77-ab0f-4f50-be15-f46015d61d03")
-		(property "Reference" "PICO_L"
+		(property "Reference" "PICO_L1"
 			(at 109.728 85.09 0)
 			(effects
 				(font
@@ -3978,7 +3978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x15_P1.00mm_Vertical"
 			(at 114.3 109.22 0)
 			(effects
 				(font
@@ -4053,7 +4053,7 @@
 		(instances
 			(project ""
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106"
-					(reference "PICO_L")
+					(reference "PICO_L1")
 					(unit 1)
 				)
 			)
@@ -4069,7 +4069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1dc35cf-95e0-4c39-9d84-702003866056")
-		(property "Reference" "SENSOR_CONN"
+		(property "Reference" "SENSOR_CONN1"
 			(at 238.76 99.0599 0)
 			(effects
 				(font
@@ -4087,7 +4087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical"
 			(at 236.22 99.06 0)
 			(effects
 				(font
@@ -4129,7 +4129,7 @@
 		(instances
 			(project "shadow"
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106"
-					(reference "SENSOR_CONN")
+					(reference "SENSOR_CONN1")
 					(unit 1)
 				)
 			)
@@ -4363,7 +4363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical"
 			(at 236.22 85.09 0)
 			(effects
 				(font
@@ -4754,7 +4754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4d911e1-e41a-45d3-865e-6274ca45b049")
-		(property "Reference" "US_SENSOR_CONN"
+		(property "Reference" "US_SENSOR_CONN1"
 			(at 238.76 113.0299 0)
 			(effects
 				(font
@@ -4772,7 +4772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
 			(at 236.22 113.03 0)
 			(effects
 				(font
@@ -4814,7 +4814,7 @@
 		(instances
 			(project "shadow"
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106"
-					(reference "US_SENSOR_CONN")
+					(reference "US_SENSOR_CONN1")
 					(unit 1)
 				)
 			)

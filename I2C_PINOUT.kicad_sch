@@ -516,7 +516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e297de9-788f-4bf5-a330-9d8db0dc3a2e")
-		(property "Reference" "I2C_PINOUT"
+		(property "Reference" "I2C_PINOUT8"
 			(at 162.56 85.0899 0)
 			(effects
 				(font
@@ -534,7 +534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical"
 			(at 160.02 85.09 0)
 			(effects
 				(font
@@ -600,7 +600,7 @@
 					(unit 1)
 				)
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/6d11c068-6d98-437f-8725-9d48a876a04d"
-					(reference "I2C_PINOUT")
+					(reference "I2C_PINOUT13")
 					(unit 1)
 				)
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/80e3d8a1-7962-4df6-b6f8-c25855f05fe1"
@@ -640,7 +640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "710187dc-05f7-4b2f-8d2a-38a4321e2918")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR068"
 			(at 148.59 90.17 0)
 			(effects
 				(font
@@ -755,7 +755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b98b6ef0-b3e1-487e-a845-624bb52d59f5")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR067"
 			(at 158.75 87.63 0)
 			(effects
 				(font
