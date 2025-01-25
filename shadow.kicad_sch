@@ -1526,6 +1526,18 @@
 			)
 		)
 	)
+	(junction
+		(at 142.24 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5aebf85-cac4-47d7-a97a-528cdd9e91e3")
+	)
+	(junction
+		(at 142.24 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7b5e4c6-50a5-48d1-9733-ec91c3a4f960")
+	)
 	(wire
 		(pts
 			(xy 104.14 121.92) (xy 104.14 130.81)
@@ -1818,6 +1830,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 96.52) (xy 133.35 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7509ea4-8943-49a1-bd4c-e0df90e4022b")
+	)
+	(wire
+		(pts
 			(xy 135.89 50.8) (xy 139.7 50.8)
 		)
 		(stroke
@@ -1835,6 +1857,16 @@
 			(type default)
 		)
 		(uuid "bb884b03-b742-44dd-a192-f6f37de0f1b5")
+	)
+	(wire
+		(pts
+			(xy 142.24 93.98) (xy 133.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcdea000-758b-44fc-8d07-c6788b2cd5c6")
 	)
 	(wire
 		(pts
@@ -1895,6 +1927,16 @@
 			(type default)
 		)
 		(uuid "ecbfe4ca-25dd-4d8a-b7a9-7ecc225911e5")
+	)
+	(wire
+		(pts
+			(xy 142.24 93.98) (xy 142.24 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee0526a2-d317-4ffd-805f-cec00f565ac3")
 	)
 	(wire
 		(pts
@@ -3301,7 +3343,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 133.35 93.98 270)
+		(at 142.24 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3310,7 +3352,7 @@
 		(fields_autoplaced yes)
 		(uuid "5dcae5db-8116-4bef-ac6a-2cb7b172bff5")
 		(property "Reference" "#PWR077"
-			(at 129.54 93.98 0)
+			(at 138.43 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,7 +3361,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 138.43 93.98 0)
+			(at 147.32 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,7 +3369,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 93.98 0)
+			(at 142.24 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3336,7 +3378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 93.98 0)
+			(at 142.24 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,7 +3387,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 133.35 93.98 0)
+			(at 142.24 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,7 +4864,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 133.35 96.52 90)
+		(at 142.24 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4831,7 +4873,7 @@
 		(fields_autoplaced yes)
 		(uuid "e84532d2-605f-42c1-a46c-e11f1e345ddc")
 		(property "Reference" "#PWR078"
-			(at 139.7 96.52 0)
+			(at 148.59 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4840,7 +4882,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 96.52 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4848,7 +4890,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 96.52 0)
+			(at 142.24 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4857,7 +4899,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 96.52 0)
+			(at 142.24 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4866,7 +4908,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 133.35 96.52 0)
+			(at 142.24 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5083,243 +5125,6 @@
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106"
 					(reference "#PWR026")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 223.52 33.02)
-		(size 17.78 33.02)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "1cf3b6ec-c899-4dd4-91bf-b580032126fc")
-		(property "Sheetname" "multiplexer1"
-			(at 227.584 29.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "multiplexer.kicad_sch"
-			(at 220.218 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "VIN" passive
-			(at 229.87 66.04 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "fd78e596-93fc-4e37-bc49-5564e1af4466")
-		)
-		(pin "GND" passive
-			(at 234.95 66.04 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2699bddc-d9a0-4e3e-9bbb-2a2791bc0f8a")
-		)
-		(pin "SC3" passive
-			(at 241.3 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "791b6233-15f9-4fa9-83e5-ba9630c0cd0f")
-		)
-		(pin "SC7" passive
-			(at 241.3 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ccdc115f-3b4f-4da0-8032-444abc175482")
-		)
-		(pin "SC6" passive
-			(at 241.3 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "90d2a2d7-f701-41d8-bbdf-46760f46b92f")
-		)
-		(pin "SC5" passive
-			(at 241.3 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b36bf6ed-1dc4-45fe-9305-044f9738cc61")
-		)
-		(pin "SC0" passive
-			(at 241.3 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "072201e9-a0a1-49a6-aa1f-16e59d33923f")
-		)
-		(pin "SC1" passive
-			(at 241.3 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a75c5aa7-3db1-4718-b256-6409c2f50a9a")
-		)
-		(pin "SC2" passive
-			(at 241.3 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "47af021b-fe37-420f-a79a-2bf61775be74")
-		)
-		(pin "SC4" passive
-			(at 241.3 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "81bbd77e-3b1c-4a5b-bd0d-faa4b1155b86")
-		)
-		(pin "SD7" passive
-			(at 241.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "370f6455-d115-417c-a128-a660224586e9")
-		)
-		(pin "SD6" passive
-			(at 241.3 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5fced22a-e229-4b3f-a375-e6089193a8c8")
-		)
-		(pin "SD3" passive
-			(at 241.3 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "be2d7ba1-bd9f-411a-865c-1f7423e8cac9")
-		)
-		(pin "SD2" passive
-			(at 241.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "048ed3a2-b514-4752-ba03-b0b9eae41f23")
-		)
-		(pin "SD1" passive
-			(at 241.3 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a6cf7fbd-cb15-4f66-8026-a1fc6ee464b5")
-		)
-		(pin "SD0" passive
-			(at 241.3 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "87ba1ac0-11e3-4303-bc4d-8db02f1b6cb2")
-		)
-		(pin "SD5" passive
-			(at 241.3 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "35809968-a5ea-4c17-9c8f-066b8fdcd312")
-		)
-		(pin "SD4" passive
-			(at 241.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "c27dc762-9fc5-40f5-a555-058d5caca379")
-		)
-		(pin "SDA_IN" passive
-			(at 223.52 45.72 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "77fda2ee-e281-474a-a0c2-a8a536e482a1")
-		)
-		(pin "SCL_IN" passive
-			(at 223.52 50.8 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "da831ca0-831b-41a8-85be-706aefd4d78c")
-		)
-		(instances
-			(project "shadow"
-				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106"
-					(page "4")
 				)
 			)
 		)
@@ -5915,6 +5720,243 @@
 			(project "shadow"
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 33.02)
+		(size 17.78 33.02)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5f8222d1-2a00-4590-a900-2f925c082a60")
+		(property "Sheetname" "multiplexer1"
+			(at 227.584 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "multiplexer.kicad_sch"
+			(at 220.218 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VIN" passive
+			(at 229.87 66.04 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0a585460-8687-4001-a382-15742a64a4fe")
+		)
+		(pin "GND" passive
+			(at 234.95 66.04 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e2b9dd81-d522-4aa7-aa88-a3063241c358")
+		)
+		(pin "SC3" passive
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8105b8f0-f4f8-4a18-8e29-70b17a9f2a50")
+		)
+		(pin "SC7" passive
+			(at 241.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c6330335-0510-437b-9e4b-3bc2161cc6b6")
+		)
+		(pin "SC6" passive
+			(at 241.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6704f5e8-c42c-4063-984a-0f5d62b26235")
+		)
+		(pin "SC5" passive
+			(at 241.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7639f0f5-43b4-4eec-bb3c-ca9e548bcdda")
+		)
+		(pin "SC0" passive
+			(at 241.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "171bdbbf-3ec1-463b-a557-e1b17eeaace6")
+		)
+		(pin "SC1" passive
+			(at 241.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a31b05ea-44b7-481f-ad28-8555f6fc34ac")
+		)
+		(pin "SC2" passive
+			(at 241.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5f589f51-3548-4458-8442-b0f6f062eb92")
+		)
+		(pin "SC4" passive
+			(at 241.3 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a9fa29b0-957f-4853-a536-899802fc64c0")
+		)
+		(pin "SD7" passive
+			(at 241.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "29a5a611-fb9d-47e5-819b-560e93e679e3")
+		)
+		(pin "SD6" passive
+			(at 241.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c568711f-ed09-4ad1-a071-d6ff71bfff0c")
+		)
+		(pin "SD3" passive
+			(at 241.3 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "018fb5b9-7429-4976-9564-307830fa6dec")
+		)
+		(pin "SD2" passive
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "38c747d6-1def-4a7d-af6b-6593164b5f2f")
+		)
+		(pin "SD1" passive
+			(at 241.3 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "16206af8-fb5d-4920-86cf-fe68e0197f69")
+		)
+		(pin "SD0" passive
+			(at 241.3 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7490847d-9dbd-46e8-be5d-bb1bc7727047")
+		)
+		(pin "SD5" passive
+			(at 241.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3e647c4b-d470-4754-a9ef-9a293f32190a")
+		)
+		(pin "SD4" passive
+			(at 241.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ae25771b-619f-4cb8-9cf3-b46c78296de0")
+		)
+		(pin "SDA_IN" passive
+			(at 223.52 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "22538cfd-9216-4e68-9fc3-c1e14f2b7dd1")
+		)
+		(pin "SCL_IN" passive
+			(at 223.52 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7cd24768-c8ff-4cf7-9d42-666262ad6cf7")
+		)
+		(instances
+			(project "shadow"
+				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106"
+					(page "4")
 				)
 			)
 		)

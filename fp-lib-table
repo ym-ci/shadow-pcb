@@ -1,4 +1,8 @@
 (fp_lib_table
   (version 7)
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
+  (lib (name "TPS61085DGKR")(type "KiCad")(uri "${KIPRJMOD}/Components/TPS61085DGKR")(options "")(descr ""))
+  (lib (name "BQ24092DGQR")(type "KiCad")(uri "${KIPRJMOD}/Components/BQ24092DGQR")(options "")(descr ""))
+  (lib (name "TPS259621")(type "KiCad")(uri "${KIPRJMOD}/Components/TPS259621")(options "")(descr ""))
+  (lib (name "XB8089D")(type "KiCad")(uri "${KIPRJMOD}/Components/XB8089D")(options "")(descr ""))
 )
