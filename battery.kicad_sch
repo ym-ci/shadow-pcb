@@ -631,151 +631,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -1802,6 +1657,162 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Schottky_diode:SS14"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Schottky_diode:SMA_L4.2-W2.6-LS5.3-RD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240710/EF24798823EE33D63F154ED67BAC5E71.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode Configuration:Independent Type Forward Voltage (Vf@If):550mV@1A Reverse Voltage (Vr):40V Rectified Current:1A Reverse Leakage Current (Ir):300uA@40V "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "SS14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "MDD(辰达半导体)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C2480"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "电压:40V 电流:1A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS14_1_0"
+				(polyline
+					(pts
+						(xy 1.27 1.524) (xy -1.27 0) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 -1.778) (xy 1.27 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 1.524) (xy -2.032 1.778) (xy -2.032 1.778) (xy -1.524 1.778) (xy -1.524 1.778) (xy -1.524 -2.032)
+						(xy -1.524 -2.032) (xy -1.016 -2.032) (xy -1.016 -2.032) (xy -1.016 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
 							)
 						)
 					)
@@ -3342,12 +3353,6 @@
 		(uuid "1edd320f-75e1-48a9-8bb4-0ae45bbbd63c")
 	)
 	(junction
-		(at 229.87 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2032c140-5318-449a-be9f-93148277b3c5")
-	)
-	(junction
 		(at 218.44 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3408,6 +3413,12 @@
 		(uuid "4225eba1-2876-4a77-a1fb-c05d3dfb7ef3")
 	)
 	(junction
+		(at 107.95 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "441e029b-29a8-4705-b2ee-1d7d3a3f2ec5")
+	)
+	(junction
 		(at 198.12 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3460,12 +3471,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6891f017-2295-4c65-93a5-12889749225e")
-	)
-	(junction
-		(at 107.95 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "689fcc45-c2df-4c51-ab0f-49e36353a707")
 	)
 	(junction
 		(at 255.27 50.8)
@@ -3586,6 +3591,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8b05b1f-6bc6-423f-8bf0-5980f1f6eceb")
+	)
+	(junction
+		(at 229.87 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8c7f183-bc68-4d20-9b16-c9c886eb019d")
 	)
 	(junction
 		(at 226.06 118.11)
@@ -4015,6 +4026,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 63.5) (xy 229.87 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e351625-d2bc-49a1-a3af-274502ed483e")
+	)
+	(wire
+		(pts
 			(xy 46.99 45.72) (xy 57.15 45.72)
 		)
 		(stroke
@@ -4042,6 +4063,16 @@
 			(type default)
 		)
 		(uuid "54730a6e-c479-4955-913b-c9c30130f3b8")
+	)
+	(wire
+		(pts
+			(xy 229.87 73.66) (xy 242.57 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54fdb9cf-57bc-4392-be40-edf7f1ff6222")
 	)
 	(wire
 		(pts
@@ -4245,16 +4276,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 45.72) (xy 119.38 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b1c5f7e-1f88-4c1c-9faf-2678354122aa")
-	)
-	(wire
-		(pts
 			(xy 198.12 109.22) (xy 198.12 114.3)
 		)
 		(stroke
@@ -4282,16 +4303,6 @@
 			(type default)
 		)
 		(uuid "81906521-606b-42fc-b43d-5c77abb900f5")
-	)
-	(wire
-		(pts
-			(xy 229.87 60.96) (xy 229.87 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "829487c5-3b27-408c-82e2-e0779af4d288")
 	)
 	(wire
 		(pts
@@ -4505,7 +4516,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 73.66) (xy 223.52 73.66)
+			(xy 223.52 73.66) (xy 229.87 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4895,16 +4906,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 73.66) (xy 242.57 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed6f1109-8e9a-4ef7-a509-9907756fdd53")
-	)
-	(wire
-		(pts
 			(xy 185.42 73.66) (xy 187.96 73.66)
 		)
 		(stroke
@@ -5072,6 +5073,16 @@
 			(type default)
 		)
 		(uuid "fcd750fe-e448-48ed-b337-a706d1a60c78")
+	)
+	(wire
+		(pts
+			(xy 107.95 45.72) (xy 116.84 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3f6ba2-81e9-4aa6-b599-f76695695eb1")
 	)
 	(wire
 		(pts
@@ -5504,7 +5515,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 225.298 69.85 90)
 			(effects
 				(font
@@ -5574,7 +5585,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 265.43 31.75 0)
 			(effects
 				(font
@@ -5641,7 +5652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 148.59 106.172 90)
 			(effects
 				(font
@@ -6011,7 +6022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 257.048 34.29 90)
 			(effects
 				(font
@@ -6138,7 +6149,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_R"
+		(property "Value" "LED_Y"
 			(at 161.29 118.4274 90)
 			(effects
 				(font
@@ -6147,7 +6158,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 157.48 115.57 0)
 			(effects
 				(font
@@ -6459,8 +6470,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 123.19 45.72 180)
+		(lib_id "Schottky_diode:SS14")
+		(at 121.92 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6469,7 +6480,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ef7f806-b3db-4858-a8ae-90777f491039")
 		(property "Reference" "D1"
-			(at 123.5075 39.37 0)
+			(at 122.301 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6477,24 +6488,15 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 123.5075 41.91 0)
+			(at 122.301 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 123.19 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 45.72 0)
+		(property "Footprint" "Schottky_Diode:SMA_L4.2-W2.6-LS5.3-RD"
+			(at 121.92 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,8 +6504,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
-			(at 123.19 45.72 0)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240710/EF24798823EE33D63F154ED67BAC5E71.pdf"
+			(at 121.92 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode Configuration:Independent Type Forward Voltage (Vf@If):550mV@1A Reverse Voltage (Vr):40V Rectified Current:1A Reverse Leakage Current (Ir):300uA@40V"
+			(at 121.92 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SS14"
+			(at 121.92 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MDD(辰达半导体)"
+			(at 121.92 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2480"
+			(at 121.92 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 121.92 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "电压:40V 电流:1A"
+			(at 121.92 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6821,7 +6877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 135.128 73.66 90)
 			(effects
 				(font
@@ -7168,7 +7224,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 146.05 115.57 0)
 			(effects
 				(font
@@ -7211,8 +7267,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 229.87 57.15 270)
+		(lib_id "Schottky_diode:SS14")
+		(at 229.87 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7220,7 +7276,7 @@
 		(dnp no)
 		(uuid "8a910b59-352f-46f1-9abf-21efb6a3364d")
 		(property "Reference" "D2"
-			(at 232.41 55.5624 90)
+			(at 232.41 56.8324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7229,7 +7285,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 225.298 59.436 90)
+			(at 225.298 60.706 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7237,8 +7293,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 229.87 57.15 0)
+		(property "Footprint" "Schottky_Diode:SMA_L4.2-W2.6-LS5.3-RD"
+			(at 229.87 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7246,8 +7302,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 229.87 57.15 0)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240710/EF24798823EE33D63F154ED67BAC5E71.pdf"
+			(at 229.87 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7255,8 +7311,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
-			(at 229.87 57.15 0)
+		(property "Description" "Diode Configuration:Independent Type Forward Voltage (Vf@If):550mV@1A Reverse Voltage (Vr):40V Rectified Current:1A Reverse Leakage Current (Ir):300uA@40V"
+			(at 229.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SS14"
+			(at 229.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MDD(辰达半导体)"
+			(at 229.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2480"
+			(at 229.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 229.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "电压:40V 电流:1A"
+			(at 229.87 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7440,7 +7541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 139.7 109.982 90)
 			(effects
 				(font
@@ -7909,7 +8010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 111.4552 78.74 0)
 			(effects
 				(font
@@ -8823,7 +8924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 112.268 67.31 90)
 			(effects
 				(font
@@ -9093,7 +9194,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 220.218 66.04 90)
 			(effects
 				(font

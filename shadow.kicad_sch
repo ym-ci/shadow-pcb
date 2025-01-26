@@ -3419,72 +3419,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 21.59 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f46387f-ac35-454d-b5da-371fce46ea56")
-		(property "Reference" "#PWR021"
-			(at 21.59 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 21.59 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.59 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 21.59 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6aac95f-358e-446c-805b-de253732f4f3")
-		)
-		(instances
-			(project "shadow"
-				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x15")
 		(at 138.43 109.22 0)
 		(unit 1)
@@ -5003,73 +4937,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 21.59 160.02 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1b0952c-93ea-4c80-85c0-a218bad4825c")
-		(property "Reference" "H3"
-			(at 24.13 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 24.13 160.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
-			(at 21.59 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 21.59 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 21.59 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0cc026e1-d092-4377-a7b8-3c14302670bb")
-		)
-		(instances
-			(project "shadow"
-				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 231.14 82.55 90)
 		(unit 1)
@@ -5956,7 +5823,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "1f4d8b00-c3b2-41db-a404-37456fc3406d")
-		(property "Sheetname" "I2C_PINOUT8"
+		(property "Sheetname" "I2C8"
 			(at 157.48 43.7384 0)
 			(effects
 				(font
@@ -5966,7 +5833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sheetfile" "I2C_PINOUT.kicad_sch"
+		(property "Sheetfile" "I2C.kicad_sch"
 			(at 157.48 48.8446 0)
 			(effects
 				(font
@@ -6016,7 +5883,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2c8d79c1-e455-4de4-83e3-c8c9d3f6f47a")
-		(property "Sheetname" "I2C_PINOUT12"
+		(property "Sheetname" "I2C12"
 			(at 157.48 58.9784 0)
 			(effects
 				(font
@@ -6026,7 +5893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sheetfile" "I2C_PINOUT.kicad_sch"
+		(property "Sheetfile" "I2C.kicad_sch"
 			(at 157.48 64.0846 0)
 			(effects
 				(font
@@ -6076,7 +5943,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "33efbf78-e978-471c-9cea-15367c539204")
-		(property "Sheetname" "I2C_PINOUT10"
+		(property "Sheetname" "I2C10"
 			(at 157.48 51.3584 0)
 			(effects
 				(font
@@ -6086,7 +5953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sheetfile" "I2C_PINOUT.kicad_sch"
+		(property "Sheetfile" "I2C.kicad_sch"
 			(at 157.48 56.4646 0)
 			(effects
 				(font
@@ -6451,7 +6318,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "4142de63-05f7-4148-b67f-adf34c320d8e")
-		(property "Sheetname" "I2C_PINOUT11"
+		(property "Sheetname" "I2C11"
 			(at 157.48 55.1684 0)
 			(effects
 				(font
@@ -6461,7 +6328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sheetfile" "I2C_PINOUT.kicad_sch"
+		(property "Sheetfile" "I2C.kicad_sch"
 			(at 157.48 60.2746 0)
 			(effects
 				(font
@@ -6511,7 +6378,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "5312e096-6ef0-46e5-b6b9-965bc5c9d2e1")
-		(property "Sheetname" "I2C_PINOUT1"
+		(property "Sheetname" "I2C1"
 			(at 241.3 36.1184 0)
 			(effects
 				(font
@@ -6521,7 +6388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sheetfile" "I2C_PINOUT.kicad_sch"
+		(property "Sheetfile" "I2C.kicad_sch"
 			(at 241.3 41.2246 0)
 			(effects
 				(font
@@ -6808,7 +6675,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "642870dc-8a2b-449d-80d8-12a116942eb6")
-		(property "Sheetname" "I2C_PINOUT6"
+		(property "Sheetname" "I2C6"
 			(at 241.3 55.1684 0)
 			(effects
 				(font
@@ -6818,7 +6685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sheetfile" "I2C_PINOUT.kicad_sch"
+		(property "Sheetfile" "I2C.kicad_sch"
 			(at 241.3 60.2746 0)
 			(effects
 				(font
@@ -6868,7 +6735,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "6d11c068-6d98-437f-8725-9d48a876a04d")
-		(property "Sheetname" "I2C_PINOUT"
+		(property "Sheetname" "I2C"
 			(at 241.3 32.3084 0)
 			(effects
 				(font
@@ -6878,7 +6745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sheetfile" "I2C_PINOUT.kicad_sch"
+		(property "Sheetfile" "I2C.kicad_sch"
 			(at 241.3 37.4146 0)
 			(effects
 				(font
@@ -6928,7 +6795,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "80e3d8a1-7962-4df6-b6f8-c25855f05fe1")
-		(property "Sheetname" "I2C_PINOUT9"
+		(property "Sheetname" "I2C9"
 			(at 157.48 47.5484 0)
 			(effects
 				(font
@@ -6938,7 +6805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sheetfile" "I2C_PINOUT.kicad_sch"
+		(property "Sheetfile" "I2C.kicad_sch"
 			(at 157.48 52.6546 0)
 			(effects
 				(font
@@ -6988,7 +6855,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9079efb0-12b1-43ea-a23a-3b78f179808a")
-		(property "Sheetname" "I2C_PINOUT5"
+		(property "Sheetname" "I2C5"
 			(at 241.3 51.3584 0)
 			(effects
 				(font
@@ -6998,7 +6865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sheetfile" "I2C_PINOUT.kicad_sch"
+		(property "Sheetfile" "I2C.kicad_sch"
 			(at 241.3 56.4646 0)
 			(effects
 				(font
@@ -7048,7 +6915,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "bb7a6f2a-14f3-4545-9deb-56e401c63823")
-		(property "Sheetname" "I2C_PINOUT4"
+		(property "Sheetname" "I2C4"
 			(at 241.3 47.5484 0)
 			(effects
 				(font
@@ -7058,7 +6925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sheetfile" "I2C_PINOUT.kicad_sch"
+		(property "Sheetfile" "I2C.kicad_sch"
 			(at 241.3 52.6546 0)
 			(effects
 				(font
@@ -7108,7 +6975,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c07a994a-219d-4064-830c-ddf1cdb92214")
-		(property "Sheetname" "I2C_PINOUT3"
+		(property "Sheetname" "I2C3"
 			(at 241.3 43.7384 0)
 			(effects
 				(font
@@ -7118,7 +6985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sheetfile" "I2C_PINOUT.kicad_sch"
+		(property "Sheetfile" "I2C.kicad_sch"
 			(at 241.3 48.8446 0)
 			(effects
 				(font
@@ -7168,7 +7035,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c1580083-c554-4948-bcc8-f17c7f357ede")
-		(property "Sheetname" "I2C_PINOUT7"
+		(property "Sheetname" "I2C7"
 			(at 241.3 58.9784 0)
 			(effects
 				(font
@@ -7178,7 +7045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sheetfile" "I2C_PINOUT.kicad_sch"
+		(property "Sheetfile" "I2C.kicad_sch"
 			(at 241.3 64.0846 0)
 			(effects
 				(font
@@ -7228,7 +7095,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "f3aa6bec-7cb4-41cf-a783-15c456af59be")
-		(property "Sheetname" "I2C_PINOUT2"
+		(property "Sheetname" "I2C2"
 			(at 241.3 39.9284 0)
 			(effects
 				(font
@@ -7238,7 +7105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sheetfile" "I2C_PINOUT.kicad_sch"
+		(property "Sheetfile" "I2C.kicad_sch"
 			(at 241.3 45.0346 0)
 			(effects
 				(font

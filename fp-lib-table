@@ -5,4 +5,5 @@
   (lib (name "BQ24092DGQR")(type "KiCad")(uri "${KIPRJMOD}/Components/BQ24092DGQR")(options "")(descr ""))
   (lib (name "TPS259621")(type "KiCad")(uri "${KIPRJMOD}/Components/TPS259621")(options "")(descr ""))
   (lib (name "XB8089D")(type "KiCad")(uri "${KIPRJMOD}/Components/XB8089D")(options "")(descr ""))
+  (lib (name "Schottky_Diode")(type "KiCad")(uri "${KIPRJMOD}/Components/Schottky_Diode")(options "")(descr ""))
 )

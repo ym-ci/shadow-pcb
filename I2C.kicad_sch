@@ -516,7 +516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e297de9-788f-4bf5-a330-9d8db0dc3a2e")
-		(property "Reference" "I2C_PINOUT8"
+		(property "Reference" "I2C8"
 			(at 162.56 85.0899 0)
 			(effects
 				(font
@@ -576,55 +576,55 @@
 		(instances
 			(project "shadow"
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/1f4d8b00-c3b2-41db-a404-37456fc3406d"
-					(reference "I2C_PINOUT8")
+					(reference "I2C8")
 					(unit 1)
 				)
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/2c8d79c1-e455-4de4-83e3-c8c9d3f6f47a"
-					(reference "I2C_PINOUT12")
+					(reference "I2C12")
 					(unit 1)
 				)
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/33efbf78-e978-471c-9cea-15367c539204"
-					(reference "I2C_PINOUT10")
+					(reference "I2C10")
 					(unit 1)
 				)
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/4142de63-05f7-4148-b67f-adf34c320d8e"
-					(reference "I2C_PINOUT11")
+					(reference "I2C11")
 					(unit 1)
 				)
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/5312e096-6ef0-46e5-b6b9-965bc5c9d2e1"
-					(reference "I2C_PINOUT1")
+					(reference "I2C1")
 					(unit 1)
 				)
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/642870dc-8a2b-449d-80d8-12a116942eb6"
-					(reference "I2C_PINOUT6")
+					(reference "I2C6")
 					(unit 1)
 				)
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/6d11c068-6d98-437f-8725-9d48a876a04d"
-					(reference "I2C_PINOUT0")
+					(reference "I2C0")
 					(unit 1)
 				)
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/80e3d8a1-7962-4df6-b6f8-c25855f05fe1"
-					(reference "I2C_PINOUT9")
+					(reference "I2C9")
 					(unit 1)
 				)
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/9079efb0-12b1-43ea-a23a-3b78f179808a"
-					(reference "I2C_PINOUT5")
+					(reference "I2C5")
 					(unit 1)
 				)
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/bb7a6f2a-14f3-4545-9deb-56e401c63823"
-					(reference "I2C_PINOUT4")
+					(reference "I2C4")
 					(unit 1)
 				)
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/c07a994a-219d-4064-830c-ddf1cdb92214"
-					(reference "I2C_PINOUT3")
+					(reference "I2C3")
 					(unit 1)
 				)
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/c1580083-c554-4948-bcc8-f17c7f357ede"
-					(reference "I2C_PINOUT7")
+					(reference "I2C7")
 					(unit 1)
 				)
 				(path "/3c2fce68-ba60-4bda-a294-ddd60ff77106/f3aa6bec-7cb4-41cf-a783-15c456af59be"
-					(reference "I2C_PINOUT2")
+					(reference "I2C2")
 					(unit 1)
 				)
 			)

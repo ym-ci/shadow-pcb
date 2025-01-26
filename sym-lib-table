@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Schottky_diode")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/Components/Schottky_Diode/Schottky_diode.elibz")(options "")(descr ""))
+)

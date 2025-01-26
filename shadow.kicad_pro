@@ -601,55 +601,55 @@
     ],
     [
       "6d11c068-6d98-437f-8725-9d48a876a04d",
-      "I2C_PINOUT"
+      "I2C"
     ],
     [
       "5312e096-6ef0-46e5-b6b9-965bc5c9d2e1",
-      "I2C_PINOUT1"
+      "I2C1"
     ],
     [
       "f3aa6bec-7cb4-41cf-a783-15c456af59be",
-      "I2C_PINOUT2"
+      "I2C2"
     ],
     [
       "c07a994a-219d-4064-830c-ddf1cdb92214",
-      "I2C_PINOUT3"
+      "I2C3"
     ],
     [
       "bb7a6f2a-14f3-4545-9deb-56e401c63823",
-      "I2C_PINOUT4"
+      "I2C4"
     ],
     [
       "9079efb0-12b1-43ea-a23a-3b78f179808a",
-      "I2C_PINOUT5"
+      "I2C5"
     ],
     [
       "642870dc-8a2b-449d-80d8-12a116942eb6",
-      "I2C_PINOUT6"
+      "I2C6"
     ],
     [
       "c1580083-c554-4948-bcc8-f17c7f357ede",
-      "I2C_PINOUT7"
+      "I2C7"
     ],
     [
       "1f4d8b00-c3b2-41db-a404-37456fc3406d",
-      "I2C_PINOUT8"
+      "I2C8"
     ],
     [
       "80e3d8a1-7962-4df6-b6f8-c25855f05fe1",
-      "I2C_PINOUT9"
+      "I2C9"
     ],
     [
       "33efbf78-e978-471c-9cea-15367c539204",
-      "I2C_PINOUT10"
+      "I2C10"
     ],
     [
       "4142de63-05f7-4148-b67f-adf34c320d8e",
-      "I2C_PINOUT11"
+      "I2C11"
     ],
     [
       "2c8d79c1-e455-4de4-83e3-c8c9d3f6f47a",
-      "I2C_PINOUT12"
+      "I2C12"
     ]
   ],
   "text_variables": {}
