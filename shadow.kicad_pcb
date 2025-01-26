@@ -1068,6 +1068,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C158012"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "715868f6-5a02-4687-b416-49cb49d304ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2e0165a7-e00c-49a6-b513-672c87993eca")
 		(sheetname "Root")
@@ -11604,6 +11616,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C110587"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "33a1dd17-24b7-488a-a88e-47ffade53e4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/353b67ec-a1cb-4a2a-a9c5-6f61edaa503f/14bd009a-7cde-4998-a3e6-20e64d49c3a1")
 		(sheetname "battery")
@@ -14338,6 +14362,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C124413"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2331a55a-5872-4d1f-ac1b-796eae2f06c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a1dc35cf-95e0-4c39-9d84-702003866056")
 		(sheetname "Root")
@@ -15087,6 +15123,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C14860"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a8fe2ecb-b2e6-456c-bd6e-4b1bf2650137")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -15914,6 +15962,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "8fa4e5cf-acc8-48ec-b902-bd68ad209ce3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -16776,6 +16836,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C1871"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a1d5198f-202c-4eab-b82e-d6b74e738d52")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -17845,6 +17917,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C1848"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "573559ae-bf30-4cff-9b94-44026737bb98")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -19357,6 +19441,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C1846"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b9150d4a-f8a7-4bd5-9050-3860908a8f20")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/353b67ec-a1cb-4a2a-a9c5-6f61edaa503f/8f7c8343-080c-4596-90cc-5bf4bd7283da")
 		(sheetname "battery")
@@ -19575,6 +19671,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C14860"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b6ced636-65c0-4be7-a9bb-36e3cf228d91")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -20844,6 +20952,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C46348"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "24c6f315-557e-4928-bd1c-861ba31af50d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/353b67ec-a1cb-4a2a-a9c5-6f61edaa503f/84a3015f-2d41-4626-83f2-de512c1ef7f6")
 		(sheetname "battery")
@@ -21278,6 +21398,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e20ab08c-d85d-4ba9-b05d-73b0b6c5ff78")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/353b67ec-a1cb-4a2a-a9c5-6f61edaa503f/480cc1ac-12cd-4756-9bd8-679b7e91e517")
 		(sheetname "battery")
@@ -21496,6 +21628,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C326623"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "9ef28d4f-eda7-4b4d-b6ab-ea12cd05fccb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -22979,6 +23123,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C14860"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "96b84328-886c-4cae-9e5e-093f4debaf90")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/353b67ec-a1cb-4a2a-a9c5-6f61edaa503f/b22c3d57-4c61-4e67-80c1-bed4cef4b326")
 		(sheetname "battery")
@@ -23417,6 +23573,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C14860"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f48eb2f9-ec07-48f3-bc5b-5987fbb263ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -24672,6 +24840,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C14860"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a2532cd3-ab78-43dc-a576-016cf28300e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
