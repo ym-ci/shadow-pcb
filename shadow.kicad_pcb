@@ -18483,6 +18483,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C14944"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c6c75a0b-d8fa-49a6-8435-54646f0366ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/353b67ec-a1cb-4a2a-a9c5-6f61edaa503f/8a910b59-352f-46f1-9abf-21efb6a3364d")
 		(sheetname "battery")
@@ -21384,7 +21396,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C142616"
+		(property "LCSC" "C14944"
 			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
@@ -40003,72 +40015,6 @@
 			)
 			(justify bottom)
 		)
-	)
-	(dimension
-		(type aligned)
-		(layer "F.Cu")
-		(uuid "81bc9e57-98e4-4641-b71c-5cc09a3d4b9e")
-		(pts
-			(xy 164.617 48.26) (xy 164.617 127)
-		)
-		(height -10.16)
-		(gr_text "78.7400 mm"
-			(at 172.977 87.63 90)
-			(layer "F.Cu")
-			(uuid "81bc9e57-98e4-4641-b71c-5cc09a3d4b9e")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.2)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "F.Cu")
-		(uuid "cb1d606e-024f-4e1b-8a0b-5483a3e03bbb")
-		(pts
-			(xy 164.617 127) (xy 94.767 127)
-		)
-		(height -10.16)
-		(gr_text "69.8500 mm"
-			(at 129.692 135.36 0)
-			(layer "F.Cu")
-			(uuid "cb1d606e-024f-4e1b-8a0b-5483a3e03bbb")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.2)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
 	)
 	(segment
 		(start 128.4817 63.921)

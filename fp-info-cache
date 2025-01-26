@@ -1,4 +1,4 @@
-24424811918242439
+24426549797167839
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91181,6 +91181,13 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+Switch
+SW-TH_K3-2235D-F1
+
+
+0
+6
+6
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
@@ -97846,12 +97853,12 @@ igbt diode module
 25
 25
 USB_C
-TYPE-C-SMD_HX-TYPE-C-16PIN
+TYPE-C-SMD_20009-UCAF001-X
 
 
 0
-16
-16
+20
+20
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
