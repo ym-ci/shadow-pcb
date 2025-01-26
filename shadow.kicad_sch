@@ -2134,17 +2134,6 @@
 		)
 		(uuid "f1d1a71f-fb21-4c87-bce4-b072e30d7006")
 	)
-	(label "GPIO14"
-		(at 21.59 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "003f71a2-f6fb-42b0-87fd-ecf81c67931f")
-	)
 	(label "MPLX_2_SCL"
 		(at 102.87 114.3 180)
 		(fields_autoplaced yes)
@@ -2167,6 +2156,17 @@
 		)
 		(uuid "07c5acf9-1d1a-400a-a310-8a5f1c79c363")
 	)
+	(label "GPIO13"
+		(at 44.45 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08f716b2-ec07-4180-88aa-fded1fbd710b")
+	)
 	(label "GPIO25"
 		(at 44.45 110.49 0)
 		(fields_autoplaced yes)
@@ -2177,6 +2177,17 @@
 			(justify left bottom)
 		)
 		(uuid "091bd185-7d47-4b71-a68c-114385b378f1")
+	)
+	(label "GPIO1"
+		(at 44.45 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f0e4f8a-08ca-480a-b95a-e0add60a4eaf")
 	)
 	(label "GPIO20"
 		(at 133.35 104.14 0)
@@ -2189,8 +2200,8 @@
 		)
 		(uuid "24e330aa-44c0-444e-9762-a15ae3d20bd5")
 	)
-	(label "GPIO8"
-		(at 21.59 100.33 180)
+	(label "GPIO0"
+		(at 44.45 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2198,7 +2209,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "25388aa1-82b1-4199-ad3a-80cbf8819c4f")
+		(uuid "25fa6d02-0b17-496b-900d-81b4a80acb1b")
 	)
 	(label "GPIO20"
 		(at 44.45 97.79 0)
@@ -2210,17 +2221,6 @@
 			(justify left bottom)
 		)
 		(uuid "27e3a25e-e9b0-4664-8696-089560109341")
-	)
-	(label "GPIO10"
-		(at 21.59 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2a63e618-98e3-46a3-aa87-f7c9b10ac54b")
 	)
 	(label "MPLX_1_SDA"
 		(at 102.87 104.14 180)
@@ -2254,6 +2254,17 @@
 			(justify left bottom)
 		)
 		(uuid "33371b4d-6106-455e-a352-5f96abde582b")
+	)
+	(label "GPIO14"
+		(at 44.45 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "36ea4ff5-6e10-4f8e-ba2e-0fb64d3e60e2")
 	)
 	(label "GPIO18"
 		(at 44.45 92.71 0)
@@ -2321,6 +2332,17 @@
 		)
 		(uuid "42e93f4d-3376-4094-bd5c-84e30f7da806")
 	)
+	(label "GPIO12"
+		(at 44.45 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "439fa6a2-d8fc-47bb-9b8b-eb6ab0d78a48")
+	)
 	(label "GPIO0"
 		(at 109.22 91.44 0)
 		(fields_autoplaced yes)
@@ -2331,6 +2353,17 @@
 			(justify left bottom)
 		)
 		(uuid "44c9cf6b-e92e-4e5f-9911-2203f72be981")
+	)
+	(label "GPIO2"
+		(at 44.45 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "453f1f9b-f424-44e3-8f19-3f596b6c9423")
 	)
 	(label "GPIO4"
 		(at 109.22 101.6 0)
@@ -2343,8 +2376,8 @@
 		)
 		(uuid "473a8623-8896-4023-9cde-d68db2b3c613")
 	)
-	(label "GPIO4"
-		(at 21.59 110.49 180)
+	(label "GPIO8"
+		(at 44.45 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2352,7 +2385,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "4dbbf666-4402-4c23-9b45-5a8f57b046a0")
+		(uuid "4d9c095b-185a-4add-b08d-8e8f6a969bd6")
 	)
 	(label "GPIO16"
 		(at 44.45 87.63 0)
@@ -2375,39 +2408,6 @@
 			(justify left bottom)
 		)
 		(uuid "4fafd74e-9666-42e9-ad0f-e8d2be0025ff")
-	)
-	(label "GPIO6"
-		(at 21.59 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "52c87727-ff3e-4d5f-a09a-4b68ade4f8fd")
-	)
-	(label "GPIO2"
-		(at 21.59 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "55804d5c-c8bd-4a78-9c5f-3d79cab61496")
-	)
-	(label "GPIO5"
-		(at 21.59 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "58e09210-10d0-4417-85b4-a0760f13ffee")
 	)
 	(label "MPLX_2_SCL"
 		(at 219.71 50.8 180)
@@ -2442,8 +2442,8 @@
 		)
 		(uuid "5e96f5ab-943e-4b18-a942-bdbc25544c9f")
 	)
-	(label "GPIO12"
-		(at 21.59 90.17 180)
+	(label "GPIO3"
+		(at 44.45 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2451,10 +2451,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "601b8acb-2d76-4be4-8233-34ef6a682f49")
+		(uuid "5ff31ac8-2801-46a5-8e38-7b32dc348871")
 	)
-	(label "GPIO1"
-		(at 21.59 118.11 180)
+	(label "GPIO4"
+		(at 44.45 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2462,7 +2462,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "61700ca3-900b-4207-b9d0-eba30dca7e20")
+		(uuid "65ae7162-33b9-4f99-8364-63958d7291a1")
 	)
 	(label "OLED_SDA"
 		(at 160.02 43.18 0)
@@ -2474,6 +2474,17 @@
 			(justify left bottom)
 		)
 		(uuid "665aa5c4-8206-4e1d-adcf-e4b66d7db8d6")
+	)
+	(label "GPIO11"
+		(at 44.45 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a6989dd-8bd1-4d56-996c-93e5d24617b7")
 	)
 	(label "GPIO28"
 		(at 133.35 124.46 0)
@@ -2518,17 +2529,6 @@
 			(justify left bottom)
 		)
 		(uuid "7a9b13d4-f075-446a-bafb-ac684d77d462")
-	)
-	(label "GPIO0"
-		(at 21.59 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7b21c2e0-84d5-49ae-a0e5-9eeea54e9bcf")
 	)
 	(label "GPIO17"
 		(at 133.35 96.52 0)
@@ -2585,8 +2585,8 @@
 		)
 		(uuid "84c39c4a-73ac-4329-9a68-b708008986ec")
 	)
-	(label "GPIO3"
-		(at 21.59 113.03 180)
+	(label "GPIO5"
+		(at 44.45 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2594,7 +2594,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "89e91d12-f932-4114-bf3c-3df6eb89211f")
+		(uuid "86086876-52e8-441c-92b3-e9a88d16f9c7")
 	)
 	(label "GPIO24"
 		(at 133.35 114.3 0)
@@ -2606,6 +2606,17 @@
 			(justify left bottom)
 		)
 		(uuid "8d9feb51-94d0-46c3-9886-c069e5353957")
+	)
+	(label "GPIO6"
+		(at 44.45 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8dde72a7-17f4-412c-93d5-03ffa7184075")
 	)
 	(label "OLED_SDA"
 		(at 219.71 90.17 180)
@@ -2684,6 +2695,28 @@
 		)
 		(uuid "9d2758c4-632b-444f-a615-92b79e4b0bab")
 	)
+	(label "GPIO9"
+		(at 44.45 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f585fdd-9857-4f38-92e7-932c54d09816")
+	)
+	(label "GPIO10"
+		(at 44.45 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a18abc90-2a7d-483b-a65d-2f36ce322166")
+	)
 	(label "GPIO11"
 		(at 109.22 119.38 0)
 		(fields_autoplaced yes)
@@ -2739,28 +2772,6 @@
 		)
 		(uuid "bb60b93f-aaa5-45a8-9a5f-b5afb083eb80")
 	)
-	(label "GPIO13"
-		(at 21.59 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bc251520-683d-433b-ad97-469a4d6b228b")
-	)
-	(label "GPIO9"
-		(at 21.59 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "be508c71-80b8-4ce5-bd53-67ebbc25da83")
-	)
 	(label "GPIO7"
 		(at 109.22 109.22 0)
 		(fields_autoplaced yes)
@@ -2771,6 +2782,17 @@
 			(justify left bottom)
 		)
 		(uuid "be603d40-0e20-43d4-87e5-2c083ea06e78")
+	)
+	(label "GPIO7"
+		(at 44.45 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0e6147f-113b-4300-a157-64733c0b137c")
 	)
 	(label "OLED_SCL"
 		(at 219.71 87.63 180)
@@ -2849,17 +2871,6 @@
 		)
 		(uuid "cd3bf7ef-c90d-4c87-8adb-0cd9108f718f")
 	)
-	(label "GPIO11"
-		(at 21.59 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d1241d78-4224-460f-958c-f6b964544c42")
-	)
 	(label "US_SCL"
 		(at 226.06 113.03 180)
 		(fields_autoplaced yes)
@@ -2936,17 +2947,6 @@
 			(justify left bottom)
 		)
 		(uuid "f1d1c677-60b9-4863-aafd-dbec228989fb")
-	)
-	(label "GPIO7"
-		(at 21.59 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f82f2e19-3da2-4409-a39a-086d2b814f80")
 	)
 	(label "GPIO29"
 		(at 44.45 120.65 0)
@@ -4061,7 +4061,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x15")
-		(at 26.67 102.87 0)
+		(at 39.37 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4070,7 +4070,7 @@
 		(fields_autoplaced yes)
 		(uuid "802dea68-594b-417d-97d4-1c5ece3584ba")
 		(property "Reference" "GPIO_L1"
-			(at 26.67 127 0)
+			(at 39.37 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,7 +4078,7 @@
 			)
 		)
 		(property "Value" "Conn_01x15"
-			(at 26.67 124.46 0)
+			(at 39.37 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4086,7 +4086,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical"
-			(at 26.67 102.87 0)
+			(at 39.37 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4095,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 102.87 0)
+			(at 39.37 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4104,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 26.67 102.87 0)
+			(at 39.37 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -466,11 +466,11 @@
       "gencad": "",
       "idf": "",
       "netlist": "shadow.net",
-      "plot": "",
+      "plot": "fabrication/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
+      "svg": "C:/Users/evanl/Downloads/ASDASDASD/",
       "vrml": ""
     },
     "page_layout_descr_file": ""
